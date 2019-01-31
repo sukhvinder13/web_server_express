@@ -13,10 +13,10 @@ hbs.registerHelper('currentYear',()=>{
 return new Date().getFullYear()
 })
 
-app.use((req,res,next)=>{
-    res.render('maintainance.hbs',{
-    })
-   })
+// app.use((req,res,next)=>{
+//     res.render('maintainance.hbs',{
+//     })
+//    })
 
 app.get('/',(req,res)=>{
 res.render('home.hbs',{
